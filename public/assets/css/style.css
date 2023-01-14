@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Oswald&family=Poppins:wght@100;200;300;700&display=swap');
+
+/* aghis ganteng */
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+}
+
+html,
+body {
+    font-family: 'poppins', 'open-sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body {
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+section.header {
+    margin-top: 115px;
+    margin-bottom: 50px;
+}
+
+section.header h1 {
+    text-align: center;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #171414;
+}
+
+section.edit-content {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+section.edit-content h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+section.edit-content button {
+    margin-top: 10px;
+    text-align: center;
+}
